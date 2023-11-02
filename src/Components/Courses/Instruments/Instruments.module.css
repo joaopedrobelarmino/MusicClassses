@@ -1,0 +1,43 @@
+.Instruments{
+  max-width: 1280px;
+  padding-top: 60px;
+  padding-bottom: 160px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  margin: auto;
+}
+.Instruments span{
+  font-size: 2rem;
+  font-family: 'Roboto Slab';
+  border-bottom:2px solid #161616;
+}
+.Instruments img{
+  width: 350px;
+  height: 450px;
+  object-fit: contain; 
+  padding: 18px;
+  border-radius: 2px;
+  transition: 0.2s;
+}
+.Instruments button{
+  padding: 20px 60px;
+  background: #161616;
+  text-transform: uppercase;
+  border: none;
+  font-size: 18px;
+  color: white;
+}
+@media (max-width:1200px){
+  .Instruments{
+    text-align: center;
+    flex-direction: column;
+  }
+}
+@media (max-width:400px){
+  .Instruments img{
+    width: 250px;
+  }
+}

@@ -1,0 +1,34 @@
+.History {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  max-width: 1280px;
+  margin: auto;
+}
+.History h1 {
+  text-align: center;
+  font-size: 7rem;
+}
+.History h1 span {
+  border-bottom: 2px solid #161616;
+}
+.History p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Roboto Slab';
+}
+@media (max-width:1200px){
+  .History{
+    text-align: center;
+    flex-direction: column;
+  }
+}
+@media (max-width:800px){
+  .History h1{
+    font-size: 3rem;
+  }
+  .History p{
+    font-size: 1.075rem;
+    width: 400px;
+    margin: auto;
+  }
+}

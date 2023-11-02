@@ -1,0 +1,70 @@
+.Intro {
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.Intro h1 {
+  font-size: 7.5rem;
+  color: #161616;
+}
+.Intro h1 span {
+  color: black;
+  border-bottom: 4px solid #161616;
+  border-radius: 2px;
+}
+.Intro p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5rem;
+  margin-top: -40px;
+}
+.Intro button {
+  padding: 20px 40px;
+  border-radius: 2px;
+  font-family: 'Roboto', serif;
+  background: linear-gradient(black,#161616);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.Intro button:hover{
+  background: linear-gradient(#141414, #171717);
+}
+.Intro img {
+  width: 1000px;
+}
+@media (max-width: 1200px) {
+  .Intro {
+    flex-direction: column;
+    text-align: center;
+  }
+  .Intro img {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .Intro h1 {
+    font-size: 3rem;
+  }
+  .Intro p {
+    font-size: 1rem;
+    margin-top: 0px;
+  }
+  .Intro button{
+    margin-top: 18px;
+    padding: 18px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 320px) {
+  .Intro h1 {
+    font-size: 2.5rem;
+  }
+  .Intro p {
+    font-size: 0.85rem;
+  }
+}

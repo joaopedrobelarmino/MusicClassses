@@ -1,0 +1,103 @@
+.ViolaoNight {
+  max-width: 1280px;
+  padding-top: 60px;
+  padding-bottom: 160px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.ViolaoNight h1 {
+  font-size: 5rem;
+  color: #141414;
+}
+.ViolaoNight h1 span {
+  color: black;
+  border-bottom: 2px solid black;
+}
+.ViolaoNight img {
+  width: 1200px;
+}
+.Matter {
+  max-width: 800px;
+  margin: auto;
+}
+.Matter h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: #141414;
+}
+.Matter h1 span {
+  color: black;
+  border-bottom: 2px solid black;
+}
+.Matter ul {
+  max-width: 400px;
+  display: block;
+  padding: 60px;
+  font-family: 'Roboto Slab';
+  font-size: 1.5rem;
+  background: white;
+  margin: auto;
+}
+.Matter button {
+  padding: 20px 60px;
+  background: #141414;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 2px;
+  border: none;
+}
+.Matter li {
+  margin: 6px;
+  border-bottom: 2px solid #eee;
+}
+.Center {
+  text-align: center;
+  padding: 10px;
+}
+@media (max-width: 1200px) {
+  .ViolaoNight {
+    flex-direction: column;
+    text-align: center;
+  }
+  .ViolaoNight img {
+    width: 0px;
+  }
+}
+@media (max-width: 1200px) {
+  .ViolaoNight h1 {
+    font-size: 3rem;
+  }
+  .Matter h1 {
+    font-size: 3rem;
+  }
+  .Matter ul {
+    font-size: 1.2rem;
+  }
+  .Matter button {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .ViolaoNight h1 {
+    font-size: 2rem;
+    width: 300px;
+  }
+  .Matter h1 {
+    font-size: 2rem;
+    width: 300px;
+    margin: auto;
+  }
+  .Matter ul{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 200px;
+  }
+  .Matter button{
+    padding: 10px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,88 @@
+.Contact {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.Contact form label {
+  display: block;
+  font-size: 20px;
+  color: white;
+  font-family: 'Roboto';
+}
+.Contact form {
+  background: #161616;
+  border-radius: 2px;
+  padding: 80px;
+
+}
+.Contact form input {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 25px 40px;
+  border: none;
+  font-size: 18px;
+  border-radius: 2px;
+}
+.Contact p {
+  font-family: 'Roboto Slab';
+  font-size: 1.8rem;
+  color: black;
+}
+.Contact h1 {
+  font-size: 7rem;
+  color: #161616;
+}
+.Contact textarea {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 20px 50px;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.Contact form button{
+  padding: 20px 60px;
+  background: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+@media (max-width:1200px){
+  .Contact{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width:800px){
+  .Contact p{
+    font-size: 1.5rem;
+  }
+  .Contact h1{
+    font-size: 3rem;
+  }
+}
+@media (max-width:500px){
+  .Contact form label{
+    font-size: 1.2rem;
+  }
+  .Contact form{
+    padding: 20px;
+  }
+  .Contact form input{
+    padding: 18px;
+    font-size: 15px;
+  }
+  .Contact textarea{
+    padding: 10px 20px;
+    font-size: 17px;
+  }
+  .Contact form button{
+    margin-top: 10px;
+    padding: 18px 40px;
+  }
+}
